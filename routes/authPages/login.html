@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="../../global.css">
+</head>
+<body>
+    <div id="signup">
+        <div id="card">
+            <h1>Login</h1>
+            <form id="form" method="post" action="/login">
+                <input type="email" placeholder="Email Id" required>
+                <input type="password" placeholder="Password" required>
+                <button id="signUp" type="submit">
+                    <span id="titleAcc">LOGIN ACCOUNT</span>
+                    <div id="loading" class="loading-spinner"></div>
+                </button>
+                <span id="or">or</span> 
+                <p class="alreaady">Don't have an account? 
+                    <a style="color: black; text-decoration: underline;" href="./signup.html">
+  LOGIN Account</a></p>
+            </form>
+          
+        </div>
+    </div>
+   <script src="./login.js"></script>
+</body>
+</html>

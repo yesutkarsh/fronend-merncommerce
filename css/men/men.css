@@ -1,0 +1,47 @@
+#men{
+    margin: 20px;
+}
+
+#men input{
+    border: none;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 22px;
+    width: 250px;
+}
+
+#products{
+    font-family: "Roboto", sans-serif;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+#product{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#product button{
+    cursor: pointer;
+    padding: 2px;
+    border: none;
+    background-color: whitesmoke;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 2px;
+}
+#product button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    font-weight: 600;
+}
+#product button:hover{
+    font-weight: 600;
+}
+#product img{
+    height: 300px;
+}
